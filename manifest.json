@@ -1,0 +1,13 @@
+﻿{
+  "name": "Tríade Prime",
+  "short_name": "Tríade",
+  "description": "Assessoria tributária e contabilidade para empresas que querem crescer.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#14281a",
+  "theme_color": "#14281a",
+  "icons": [
+    { "src": "favicon-192x192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "favicon-512x512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
