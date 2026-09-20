@@ -168,7 +168,7 @@ em { font-style: normal; font-weight: 700; color: var(--g6); }
 @media (min-width: 600px)  { .hdr-in { padding: 0 32px; } }
 @media (min-width: 1000px) { .hdr-in { padding: 0 40px; } }
 
-.hdr-logo img { height: 28px; width: auto; }
+.hdr-logo img { height: 44px; width: auto; }
 
 .hdr-nav { display: none; margin-left: 28px; gap: 2px; }
 .hdr-nav a {
