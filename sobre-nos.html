@@ -247,8 +247,6 @@ em{font-style:normal;font-weight:700;color:var(--g6);}
 
 /* === TEAM SECTION === */
 .team-sec{background:var(--g8);padding:72px 0 80px;}
-.team-divider{font-size:10.5px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.38);margin-bottom:24px;padding-bottom:12px;border-bottom:1px solid rgba(255,255,255,.07);}
-.team-divider+.team-divider{margin-top:52px;}
 .team-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
 @media(max-width:860px){.team-grid{grid-template-columns:repeat(2,1fr);}}
 @media(max-width:520px){.team-grid{grid-template-columns:1fr;}}
@@ -266,11 +264,8 @@ em{font-style:normal;font-weight:700;color:var(--g6);}
 .tm-bio{font-size:13px;color:rgba(255,255,255,.62);line-height:1.65;margin-top:10px;}
 .tm-todo{font-size:12px;color:var(--au3);font-style:italic;margin-top:6px;}
 </style>
-<link rel="shortcut icon" href="img/Favicon.png">
-<link rel="icon" type="image/png" href="img/Favicon.png">
 
 
-<link rel="apple-touch-icon" href="img/Favicon.png">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -299,7 +294,9 @@ em{font-style:normal;font-weight:700;color:var(--g6);}
     }
   ]
 }
-</script></head>
+</script><link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32.png">
+<link rel="apple-touch-icon" href="/img/favicon-180.png">
+</head>
 <body>
 <header class="hdr">
   <div class="hdr-in">
@@ -338,7 +335,6 @@ em{font-style:normal;font-weight:700;color:var(--g6);}
       <p style="color:rgba(255,255,255,.65);max-width:520px;margin:0 auto;">Uma equipe multidisciplinar de advogados, contadores e especialistas dedicados ao crescimento da sua empresa.</p>
     </div>
 
-    <div class="team-divider rv d1">Sócios Fundadores</div>
     <div class="team-grid rv d1">
 
       <div class="tm-card">
@@ -377,10 +373,29 @@ em{font-style:normal;font-weight:700;color:var(--g6);}
         </div>
       </div>
 
-    </div>
+      <div class="tm-card">
+        <div class="tm-photo-wrap">
+          <img src="img/IMG_8653.jpg" alt="Allana Oliveira" class="tm-photo" loading="lazy">
+        </div>
+        <div class="tm-info">
+          <div class="tm-dept">[ Contábil ]</div>
+          <h3 class="tm-name">Allana Oliveira</h3>
+          <p class="tm-role">Sócia · Diretora Contábil</p>
+          <p class="tm-bio">Especialista em contabilidade gerencial e controladoria, transforma a contabilidade em base analítica para embasar as decisões do seu negócio.</p>
+        </div>
+      </div>
 
-    <div class="team-divider rv d2">Equipe</div>
-    <div class="team-grid rv d2">
+      <div class="tm-card">
+        <div class="tm-photo-wrap">
+          <img src="img/esthapny.JPG" alt="Sthefany Araújo" class="tm-photo" loading="lazy">
+        </div>
+        <div class="tm-info">
+          <div class="tm-dept">[ Legalização ]</div>
+          <h3 class="tm-name">Sthefany Araújo</h3>
+          <p class="tm-role">Responsável pelo Departamento de Legalização</p>
+          <p class="tm-bio">Garante agilidade e segurança na abertura e manutenção do seu negócio, desburocratizando cada etapa societária.</p>
+        </div>
+      </div>
 
       <div class="tm-card">
         <div class="tm-photo-wrap">
@@ -390,54 +405,31 @@ em{font-style:normal;font-weight:700;color:var(--g6);}
           <div class="tm-dept">[ Departamento Pessoal ]</div>
           <h3 class="tm-name">Rebeca</h3>
           <p class="tm-role">Head · Departamento Pessoal</p>
+          <p class="tm-bio">Cuida da gestão trabalhista com eficiência e máxima segurança jurídica, blindando sua empresa contra passivos trabalhistas.</p>
         </div>
       </div>
 
       <div class="tm-card">
         <div class="tm-photo-wrap">
-          <img src="img/IMG_8653.jpg" alt="" class="tm-photo" loading="lazy">
+          <img src="img/andreia.JPG" alt="Andreia Tavares" class="tm-photo" loading="lazy">
         </div>
         <div class="tm-info">
-          <div class="tm-dept">&nbsp;</div>
-          <h3 class="tm-name"><!-- Nome pendente --></h3>
-          <p class="tm-role"><!-- Cargo pendente --></p>
-          <p class="tm-todo">⚠ Dados pendentes de preenchimento</p>
+          <div class="tm-dept">[ Fiscal ]</div>
+          <h3 class="tm-name">Andreia Tavares</h3>
+          <p class="tm-role">Responsável pelo Departamento Fiscal</p>
+          <p class="tm-bio">Garante que sua empresa recolha exatamente o que deve — nem um centavo a mais — transformando o cumprimento fiscal em vantagem competitiva.</p>
         </div>
       </div>
 
       <div class="tm-card">
         <div class="tm-photo-wrap">
-          <img src="img/IMG_8654.jpg" alt="" class="tm-photo" loading="lazy">
+          <img src="img/IMG_8654.jpg" alt="Fernanda Balman" class="tm-photo" loading="lazy">
         </div>
         <div class="tm-info">
-          <div class="tm-dept">&nbsp;</div>
-          <h3 class="tm-name"><!-- Nome pendente --></h3>
-          <p class="tm-role"><!-- Cargo pendente --></p>
-          <p class="tm-todo">⚠ Dados pendentes de preenchimento</p>
-        </div>
-      </div>
-
-      <div class="tm-card">
-        <div class="tm-photo-wrap">
-          <img src="img/andreia.JPG" alt="Andreia" class="tm-photo" loading="lazy">
-        </div>
-        <div class="tm-info">
-          <div class="tm-dept"><!-- TODO: departamento -->&nbsp;</div>
-          <h3 class="tm-name">Andreia</h3>
-          <p class="tm-role"><!-- TODO: cargo --></p>
-          <p class="tm-todo">⚠ Cargo pendente de preenchimento</p>
-        </div>
-      </div>
-
-      <div class="tm-card">
-        <div class="tm-photo-wrap">
-          <img src="img/esthapny.JPG" alt="Esthapny" class="tm-photo" loading="lazy">
-        </div>
-        <div class="tm-info">
-          <div class="tm-dept"><!-- TODO: departamento -->&nbsp;</div>
-          <h3 class="tm-name">Esthapny</h3>
-          <p class="tm-role"><!-- TODO: cargo --></p>
-          <p class="tm-todo">⚠ Cargo pendente de preenchimento</p>
+          <div class="tm-dept">[ Auditoria ]</div>
+          <h3 class="tm-name">Fernanda Balman</h3>
+          <p class="tm-role">Responsável pelo Departamento de Auditoria</p>
+          <p class="tm-bio">Responsável pelo controle de qualidade da operação, garantindo que nenhuma apuração saia sem dupla checagem.</p>
         </div>
       </div>
 
@@ -447,9 +439,9 @@ em{font-style:normal;font-weight:700;color:var(--g6);}
           <div class="tm-placeholder">CD</div>
         </div>
         <div class="tm-info">
-          <div class="tm-dept">Departamento Pessoal</div>
+          <div class="tm-dept">[ Pessoal ]</div>
           <h3 class="tm-name">Camila Duarte</h3>
-          <p class="tm-role">Sócia · Head DP</p>
+          <p class="tm-role">Sócia · Head Departamento Pessoal</p>
         </div>
       </div>
       -->
