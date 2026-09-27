@@ -3,6 +3,15 @@
    Shared design system: reset, tokens, utilities, navbar, footer
    ============================================================ */
 
+/* --- FONT: Open Sauce One Bold ----------------------------- */
+@font-face {
+  font-family: 'Open Sauce One';
+  src: url('fonts/OpenSauceOne-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* --- RESET -------------------------------------------------- */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { -webkit-font-smoothing: antialiased; scroll-behavior: smooth; }
@@ -49,7 +58,8 @@ ul { list-style: none; }
   --gold:       #c4911a;  /* = --au */
 
   /* Typography */
-  --f: 'Instrument Sans', system-ui, sans-serif;
+  --f:  'Instrument Sans', system-ui, sans-serif;
+  --fh: 'Open Sauce One', 'Instrument Sans', system-ui, sans-serif;
 
   /* Radii */
   --r8:  8px;
@@ -69,7 +79,7 @@ ul { list-style: none; }
 
 /* --- TYPOGRAPHY BASE --------------------------------------- */
 h1, h2, h3, h4 {
-  font-family: var(--f);
+  font-family: var(--fh);
   font-weight: 700;
   color: var(--ink);
   letter-spacing: -.02em;
