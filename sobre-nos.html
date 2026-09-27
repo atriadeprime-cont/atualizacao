@@ -127,16 +127,9 @@ em{font-style:normal;font-weight:700;color:var(--g6);}
 .pg-hero p{color:rgba(255,255,255,.78);font-size:16px;max-width:560px;line-height:1.78;}
 .pg-hero .eyebrow{color:rgba(255,255,255,.8);margin-bottom:16px;}
 .pg-hero .eyebrow::before{background:var(--au2);}
-.trident-bg{
-  position:absolute;
-  right:-60px;top:50%;transform:translateY(-50%);
-  width:min(460px,52vw);opacity:.2;
-  pointer-events:none;
-  filter:drop-shadow(0 0 30px rgba(201,162,39,.1));
-}
-@media(max-width:600px){
-  .trident-bg{right:-80px;top:10%;transform:none;width:260px;opacity:.14;}
-}
+.hero-poseidon{position:absolute;right:-20px;bottom:0;height:95%;width:auto;opacity:.22;pointer-events:none;z-index:0;}
+@media(max-width:860px){.hero-poseidon{height:65%;opacity:.18;right:-10px;}}
+@media(max-width:480px){.hero-poseidon{height:50%;opacity:.14;}}
 
 /* SECTIONS */
 .sec{padding:60px 0;}
@@ -328,7 +321,7 @@ em{font-style:normal;font-weight:700;color:var(--g6);}
 </nav>
 <main>
 <section class="pg-hero">
-  <div class="trident-bg"></div>
+  <img class="hero-poseidon" src="img/Poseidon.png" alt="" aria-hidden="true">
   <div class="w">
     <span style="display:inline-flex;align-items:center;gap:7px;font-size:11px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:var(--au2);background:rgba(196,145,26,.1);border:1px solid rgba(196,145,26,.25);padding:5px 14px;border-radius:var(--rp);margin-bottom:18px;">Conheça a Tríade Prime</span><br>
     <div class="eyebrow" style="margin-bottom:16px;">Sobre nós</div>
@@ -388,6 +381,41 @@ em{font-style:normal;font-weight:700;color:var(--g6);}
 
     <div class="team-divider rv d2">Equipe</div>
     <div class="team-grid rv d2">
+
+      <div class="tm-card">
+        <div class="tm-photo-wrap">
+          <img src="img/Rebeca.jpg" alt="Rebeca" class="tm-photo" loading="lazy">
+        </div>
+        <div class="tm-info">
+          <div class="tm-dept">[ Departamento Pessoal ]</div>
+          <h3 class="tm-name">Rebeca</h3>
+          <p class="tm-role">Head · Departamento Pessoal</p>
+        </div>
+      </div>
+
+      <div class="tm-card">
+        <div class="tm-photo-wrap">
+          <img src="img/IMG_8653.jpg" alt="" class="tm-photo" loading="lazy">
+        </div>
+        <div class="tm-info">
+          <div class="tm-dept">&nbsp;</div>
+          <h3 class="tm-name"><!-- Nome pendente --></h3>
+          <p class="tm-role"><!-- Cargo pendente --></p>
+          <p class="tm-todo">⚠ Dados pendentes de preenchimento</p>
+        </div>
+      </div>
+
+      <div class="tm-card">
+        <div class="tm-photo-wrap">
+          <img src="img/IMG_8654.jpg" alt="" class="tm-photo" loading="lazy">
+        </div>
+        <div class="tm-info">
+          <div class="tm-dept">&nbsp;</div>
+          <h3 class="tm-name"><!-- Nome pendente --></h3>
+          <p class="tm-role"><!-- Cargo pendente --></p>
+          <p class="tm-todo">⚠ Dados pendentes de preenchimento</p>
+        </div>
+      </div>
 
       <div class="tm-card">
         <div class="tm-photo-wrap">

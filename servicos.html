@@ -127,16 +127,9 @@ em{font-style:normal;font-weight:600;color:var(--g6);}
 .pg-hero p{color:rgba(255,255,255,.82);font-size:16px;max-width:560px;line-height:1.78;}
 .pg-hero .eyebrow{color:rgba(255,255,255,.6);margin-bottom:16px;}
 .pg-hero .eyebrow::before{background:var(--au2);}
-.trident-bg{
-  position:absolute;
-  right:-60px;top:50%;transform:translateY(-50%);
-  width:min(460px,52vw);opacity:.2;
-  pointer-events:none;
-  filter:drop-shadow(0 0 30px rgba(201,162,39,.1));
-}
-@media(max-width:600px){
-  .trident-bg{right:-80px;top:10%;transform:none;width:260px;opacity:.14;}
-}
+.hero-poseidon{position:absolute;right:-20px;bottom:0;height:95%;width:auto;opacity:.22;pointer-events:none;z-index:0;}
+@media(max-width:860px){.hero-poseidon{height:65%;opacity:.18;right:-10px;}}
+@media(max-width:480px){.hero-poseidon{height:50%;opacity:.14;}}
 
 /* SECTIONS */
 .sec{padding:60px 0;}
@@ -286,9 +279,9 @@ em{font-style:normal;font-weight:600;color:var(--g6);}
 </style>
 <link rel="stylesheet" href="style.css">
 <link rel="manifest" href="manifest.json">
-<link rel="shortcut icon" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="shortcut icon" href="/img/Favicon.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/Favicon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/Favicon.png">
 <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg"><script type="application/ld+json">
@@ -397,6 +390,7 @@ em{font-style:normal;font-weight:600;color:var(--g6);}
 
 <!-- ===== HERO ===== -->
 <section class="pg-hero">
+  <img class="hero-poseidon" src="img/Poseidon.png" alt="" aria-hidden="true">
   <div class="w">
     <p class="eyebrow rv">Planos &amp; Serviços</p>
     <h1 class="rv d1">A contabilidade que trabalha<br>enquanto você <em>vende</em></h1>
